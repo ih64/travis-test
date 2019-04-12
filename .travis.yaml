@@ -1,0 +1,11 @@
+language : python
+
+python:
+	- 2.7
+	- 3.6
+
+script:
+	- python hello.py
+
+after_success:
+	- codecov
